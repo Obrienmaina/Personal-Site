@@ -26,6 +26,54 @@ body{
 
 }
 
+.skill-row{
+    /* display: inline-block; */
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+    position: relative;
+
+        /* circle shorthand
+        
+        When one value is specified, it applies the same margin to all four sides.
+        When two values are specified, the first margin applies to the top and bottom, the second to the left and right.
+        When three values are specified, the first margin applies to the top, the second to the left and right, the third to the bottom.
+        When four values are specified, the margins apply to the top, right, bottom, and left in that order (clockwise).
+
+        */
+}
+
+/* used to wrap text around images | don't use it in positioning */
+
+    .skilled{
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .skilld{
+        width: 25%;
+        float: right;
+        margin-left: 30px;
+    }
+
+    /* .first{
+        right: 300px;
+    }
+    
+    .second{
+        left: 300px;
+    } */
+    /* .sample{
+        clear: left;
+    }
+     */
+
+     /* .sampled{
+        clear: right;
+     } */
+
 h1{
     /* font-size: 90px; 16px=100% */
     /* 1em was traditionally the size of capital m | it is 16px  */
